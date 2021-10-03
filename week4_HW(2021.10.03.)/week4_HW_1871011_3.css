@@ -1,0 +1,98 @@
+h1 { font-family: bold 33px 'Orbitron', sans-serif;  line-height: 2px; }
+h2 { font: bold 14px verdana, sans-serif;  line-height: 2px; }
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{ display: block; }
+body { text-align: center; background-color: #000000; }
+div{
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    /*border: 1px solid #000000;*/
+    -chrome-box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;    
+}
+#wrapper{
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+}
+#main_header{
+    background: #ff0080;
+    /*border: 1px solid #999999;*/
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+#main_menu { 
+    background: #ffffff; 
+    padding: 5px 15px; 
+    font-family: 'Orbitron', sans-serif;
+}
+#main_menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    /*font: bold 14px verdana, sans-serif;*/
+    font-family: 'Orbitron', sans-serif;
+}
+#main_section{
+    float: left; 
+    width: 300px; 
+    margin: 10px 5px; 
+    color: #000000;
+    font-family: 'Roboto Slab', serif;
+}
+#main_section2{
+    float: left; 
+    width: 600px; 
+    margin: 10px 5px; 
+    color: #000000;
+    font-family: 'Roboto Slab', serif;
+}
+#main_aside{
+    float: left; 
+    width: 200px; 
+    margin: 10px 10px; 
+    padding: 20px; 
+    background: #a349a4; 
+    font-family: 'Roboto Slab', serif;
+}
+#main_footer{
+    clear: both; 
+    text-align: center;
+    padding: 20px; 
+    border-top: 2px solid #a349a4;
+    color: #a349a4;
+    font-family: 'Roboto Slab', serif;
+}
+article { 
+    background: #ffffff; 
+    border: 10px solid #0000ff; 
+    padding: 20px; 
+    margin-bottom: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+article footer { 
+    text-align: right; 
+}
+time { 
+    color: #999999; 
+} 
+figcaption { 
+    font-family: italic 14px 'Roboto Slab', sans-serif;
+}
+blockquote{
+    text-align: center;
+    margin: 10px;
+}
+a:visited {
+    color : black;
+}
+a:hover {
+    color : #ff0080;
+}
+a:active {
+    color : #0000ff;
+}
+a { 
+    text-decoration:none 
+} 
