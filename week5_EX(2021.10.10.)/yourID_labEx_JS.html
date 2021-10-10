@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>kimchaewon_1871011</title>
+</head>
+<body>
+<script type="text/javascript">
+
+/* 1. Write a function named "factorial_loop" that takes a positive integer value as an input including 0 and returns the factorial of the input using a recursive function*/
+console.log("The test results for factorial_recursive");
+function factorial_recursive(n) {
+  if (n == 0) {
+      return 1;
+  }
+  else {
+      return n * factorial_recursive(n - 1);
+  }
+}
+for (let i = 0; i < 7; i++) {
+  console.log(i + ":" + factorial_recursive(i));
+}
+
+/* 2. Write a function named "factorial_loop" that takes a positive integer value as an input including 0 and returns the factorial of the input using a loop*/
+console.log("The test results for factorial_loop");
+function factorial_loop(n){
+  var result = n;
+  if (n === 0 || n === 1) 
+    return 1; 
+  while (n > 1) { 
+    n--;
+    result *= n;
+  }
+  return result;
+}
+for (let i = 0; i < 7; i++) {
+  console.log("factorial("+i+") returns " + factorial_loop(i));
+}
+
+/* 3. Write a function named "array_sort" that takes an array with the maximum length of 3 as an input and sorts the array in an ascending order and returns the sorted array */
+console.log("The test results for sort_array");
+function sort_array(n){
+  return n.sort();
+}
+
+console.log("sort_array([]) should return " +"["+sort_array([])+"]"+ "\n");
+console.log("sort_array([5]) should return " +"["+sort_array([5])+"]"+ "\n");
+console.log("sort_array([4,1]) should return " +"["+sort_array([4,1])+"]"+ "\n");
+console.log("sort_array([3,2,3]) should return " +"["+sort_array([3,2,3])+"]"+ "\n");
+console.log("sort_array([5,3,8,9,4,1]) should return " +"["+sort_array([5,3,8,9,4,1])+"]"+ "\n");
+</script>
+</body>
+</html>
+
