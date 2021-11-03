@@ -14,11 +14,15 @@ windows基盤で説明しています。
 5. ```cd "folder name"  ```
 6. ```npm start```
 7. Press ```a```(android)や```i```(ios) ← mobile emulatorを見ることができます。
-8. "Building JavaScript bundle"が終わると、mobile emulatorにExpoの情報が出てきます。
+8. "Building JavaScript bundle"が終わると、mobile emulatorにExpoの情報が出てきます。  
+
+![ex_screenshot](./Expo.PNG)
 
 <h2>● Use React Native CLI</h2>
 
 windows基盤で説明しています。  
 1. ```npx react-native init "folder name"```
 2. ```cd "folder name"```
-3. ```npx react-native run-android```や```npm run ios``` ← mobile emulatorを見ることができます。
+3. ```npx react-native run-android```や```npm run ios``` ← mobile emulatorを見ることができます。  
+
+![ex_screenshot](./reactnativeCLI.PNG)
