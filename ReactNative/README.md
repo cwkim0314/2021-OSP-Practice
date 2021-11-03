@@ -18,4 +18,7 @@ windows基盤で説明しています。
 
 <h2>● Use React Native CLI</h2>
 
-windows基盤で説明しています。 
+windows基盤で説明しています。  
+1. ```npx react-native init "folder name"```
+2. ```cd "folder name"```
+3. ```npm run android```やnpm run ios``` ← mobile emulatorを見ることができます。
