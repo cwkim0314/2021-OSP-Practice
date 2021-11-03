@@ -21,4 +21,4 @@ windows基盤で説明しています。
 windows基盤で説明しています。  
 1. ```npx react-native init "folder name"```
 2. ```cd "folder name"```
-3. ```npm run android```や```npm run ios``` ← mobile emulatorを見ることができます。
+3. ```npx react-native run-android```や```npm run ios``` ← mobile emulatorを見ることができます。
